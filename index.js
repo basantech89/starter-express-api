@@ -10,8 +10,7 @@ app.use(helmet({
             defaultSrc: ["'self'"],
             scriptSrc: ["'self'"],
             styleSrc: ["'self'"],
-            imgSrc: ["'self'"],
-            "style-src": ["'self'"],
+            imgSrc: ["'self'"]
         },
     },
 }))
